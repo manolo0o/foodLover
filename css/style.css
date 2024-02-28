@@ -1,1 +1,51 @@
 @import url(style.css);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.pag1{
+    background: rgba(0, 0, 0, 0.932) url(/storage/img/placeYourImageHere0.png) center/ cover no-repeat ;
+    height: 100vh;
+    opacity: 0.85;
+    background-blend-mode: darken;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+
+.left ul li{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.right ul li{
+    margin-right: 110px;
+    margin-top: 50px;
+}
+
+a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e58f00;
+}
