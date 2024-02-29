@@ -96,5 +96,16 @@ h2{
 
 .cntac a:hover{
     color: rgba(0, 0, 0, 0.417);
-
 }
+
+
+.pag2{
+    display: flex;
+    background-color:#17171e ;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
