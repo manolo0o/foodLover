@@ -29,6 +29,9 @@ nav ul{
     margin-right: 10px;
 }
 
+ul{
+    list-style: none;
+}
 
 .left ul li{
     margin-left: 80px;
@@ -48,4 +51,50 @@ a{
 
 a:hover{
     color: #e58f00;
+}
+
+.img2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.cnt{
+    margin-left:80px;
+}
+
+.title{
+    margin-top: 50px;
+}
+
+.title, h2{
+    font-size: xxx-large;
+    color: #e58f00;
+}
+
+h2{
+    margin-bottom:20px ;
+}
+
+.cnt2{
+    width: 400px;
+}
+
+.cntac{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    background-color: #e58f00;
+    width: 180px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(121, 121, 121, 0.5);
+    font-weight: 700;
+}
+
+.cntac a:hover{
+    color: rgba(0, 0, 0, 0.417);
+
 }
