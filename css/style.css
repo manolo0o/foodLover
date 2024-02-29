@@ -105,7 +105,36 @@ h2{
     height: 100vh;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+}
+
+.imgpag2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 80%;
+}
+
+.imgpag2 img{
+    width: 700px;
+    height: 700px;
     margin-left: 100px;
 }
 
+.content2{  
+    width: 35%;
+    margin-bottom: 15%;
+    margin-left: 55px;
+    margin-top: 10%;
+}
+
+.pp{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.pp1{
+    font-size: 40px;
+}
 
