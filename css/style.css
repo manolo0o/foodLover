@@ -17,6 +17,7 @@ nav ul{
     display: flex;
     flex-direction: row;
 }
+
 .pag1{
     background: rgba(0, 0, 0, 0.932) url(/storage/img/placeYourImageHere0.png) center/ cover no-repeat ;
     height: 100vh;
@@ -57,6 +58,10 @@ a:hover{
     display: flex;
     margin-top: 100px;
     margin-left: 200px;
+}
+
+.img2 img{
+    width: 45%;
 }
 
 .cnt{
@@ -117,24 +122,77 @@ h2{
 }
 
 .imgpag2 img{
-    width: 700px;
-    height: 700px;
-    margin-left: 100px;
+    width: 500px;
+    height: 600px;
+    margin-left: 35%;
 }
 
 .content2{  
-    width: 35%;
+    width: 25%;
     margin-bottom: 15%;
-    margin-left: 55px;
-    margin-top: 10%;
+    margin-top: 4%;
 }
 
 .pp{
     margin-bottom: 10px;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .pp1{
-    font-size: 40px;
+    font-size: 30px;
 }
 
+.pag3{
+    background-color:#17171e ;
+}
+
+
+.png{
+    display: flex;
+    justify-content: center;
+}
+
+.png img{
+    width: 100%;
+}
+
+.png1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pag4{
+    background-color: #17171e ;
+    height: auto;
+}
+
+.hpag4{
+    display: flex;
+    justify-content: center;
+}
+
+.hpag4 h1{
+    font-size: xxx-large;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gallerys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.images {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images li {
+    margin: 10px;
+}
