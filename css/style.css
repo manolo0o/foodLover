@@ -163,7 +163,7 @@ h2{
 
 .pag4{
     background-color: #17171e ;
-    height: auto;
+    height: 140vh;
 }
 
 .hpag4{
@@ -195,4 +195,63 @@ h2{
 
 .images li {
     margin: 10px;
+}
+
+.pag5{
+    background: rgba(0, 0, 0, 0.932) url(/storage/img/placeYourImageHereOur0.png) center/ cover no-repeat ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titpag5{
+    text-align: center;
+    width: 50%;
+    height: 70%;    
+    background-color: #17171ed9;
+    padding: 20px;
+    border: 12px solid #e58f00;
+    box-sizing: border-box;
+}
+
+.titpag5 h1{
+    font-size: xxx-large;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.titpag5 p{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pag6{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #17171e;
+}
+
+.titpag6 h1{
+    font-size: xxx-large;
+    margin-top: 20px;
+}
+
+.menuimgs{
+    margin-top: 20px;
+}
+
+.menuimgs ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+
+.menuimgs ul li {
+    margin-right: 50px;
 }
