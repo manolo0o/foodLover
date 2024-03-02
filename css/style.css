@@ -1,11 +1,11 @@
 @import url(style.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto Slab",serif;
     font-weight: bold;
 }
 
@@ -89,7 +89,6 @@ h2{
 }
 
 .cntac{
-    color: black;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -98,12 +97,16 @@ h2{
     width: 180px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(121, 121, 121, 0.5);
+    box-shadow: 0 0 10px rgb(29, 28, 28);
     font-weight: 700;
 }
 
-.cntac a:hover{
-    color: rgba(0, 0, 0, 0.417);
+.contactop{
+    color: black;
+}
+
+.contactop a:hover{
+    cursor: pointer;
 }
 
 
@@ -125,24 +128,25 @@ h2{
 }
 
 .imgpag2 img{
-    width: 500px;
-    height: 600px;
-    margin-left: 35%;
+    width: 60vh;
+    height: 70vh;
+    margin-left: 35vh;
 }
 
 .content2{  
-    width: 25%;
+    width: 65vh;
     margin-bottom: 15%;
-    margin-top: 4%;
+    margin-top: 20vh;
+    margin-left: 10vh ;
 }
 
 .pp{
     margin-bottom: 10px;
-    font-size: 45px;
+    font-size: 6vh;
 }
 
 .pp1{
-    font-size: 30px;
+    font-size: 4vh;
 }
 
 .pag3{
@@ -311,7 +315,9 @@ h2{
 .pepe{
     margin-bottom: 1vh;
     width: 45vh;
+    margin-right: 5vh;
 }
+
 
 .menuimgs .pepe1{
     color: #e58f00;
@@ -375,12 +381,20 @@ footer{
     margin-left: 3vh;
 }
 
-.socialmedia{
+.iconos{
     display: flex;
     justify-content: center;
-    margin-top: 3vh;
+    height: 1vw;
+    font-size: 2vw;
+    margin-top: 1vw;
 }
 
-.socialmedia i{
-    margin-left: 3vh;
+.bx{
+    display: flex;
+    justify-content: space-between;
+    width: 4.5vw;
+}
+
+.bx:hover{
+    cursor: pointer;
 }
