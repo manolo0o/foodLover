@@ -21,7 +21,7 @@ nav ul{
 }
 
 .pag1{
-    background: rgba(0, 0, 0, 0.932) url("..//storage/img/placeYourImageHere0.png") center/ cover no-repeat ;
+    background: rgba(0, 0, 0, 0.932) url("/storage/img/placeYourImageHere0.png") center/ cover no-repeat ;
     height: 100vh;
     opacity: 0.85;
     background-blend-mode: darken;
@@ -255,7 +255,7 @@ h2{
 }
 
 .pag5{
-    background: rgba(0, 0, 0, 0.932) url("..//storage/img/placeYourImageHere0.png") center/ cover no-repeat ;
+    background: rgba(0, 0, 0, 0.932) url("/storage/img/placeYourImageHere0.png") center/ cover no-repeat ;
     height: 100vh;
     display: flex;
     justify-content: center;
