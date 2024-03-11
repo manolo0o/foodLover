@@ -84,6 +84,7 @@ h2{
 }
 
 .cnt2{
+    color: white;
     width: 70vh;
     font-size: 4vh;
 }
@@ -134,6 +135,7 @@ h2{
 }
 
 .content2{  
+    color: white;
     width: 65vh;
     margin-bottom: 15%;
     margin-top: 20vh;
@@ -201,6 +203,7 @@ h2{
 }
 
 .titulazo{
+    color: white;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
@@ -229,6 +232,7 @@ h2{
 }
 
 .hpag4 h1{
+    color: white;
     font-size: xxx-large;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -263,6 +267,7 @@ h2{
 }
 
 .titpag5{
+    color: white;
     text-align: center;
     width: 50%;
     height: 70%;    
@@ -294,6 +299,7 @@ h2{
 }
 
 .titpag6 h1{
+    color: white;
     font-size: xxx-large;
     margin-bottom: 3vh;
 }
@@ -313,6 +319,7 @@ h2{
 }
 
 .pepe{
+    color: white;
     margin-bottom: 1vh;
     width: 45vh;
     margin-right: 5vh;
@@ -336,6 +343,7 @@ footer{
 }
 
 .divpag7{
+    color: white;
     display: flex;
     justify-content: center;
 }
